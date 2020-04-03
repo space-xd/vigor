@@ -1,4 +1,21 @@
 tasks:
   - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
+    command:
+      echo "Replace me with something that should run on every start, or just
       remove me entirely."
+
+vscode:
+  extensions:
+    - dsznajder.es7-react-js-snippets@2.7.1:adU40EmL4YfIciiaLc7LVQ==
+    - dbaeumer.vscode-eslint@2.1.1:Vcj0ARpbOWzkNthFkqdwnw==
+    - eamodio.gitlens@10.2.1:WIWu3zHU4VPT8r/v866LUw==
+    - esbenp.prettier-vscode@3.20.0:GcA6Dt0jU0J6CtNurtGRDQ==
+    - vscode.markdown-language-features@1.39.1:Uw21vR+5JqAIqFl459wiwA==
+    - vscode.npm@1.39.1:zYD10cGCAcC/t4V4WPZ2Tg==
+    - vscode.json-language-features@1.39.1:DYg2qj6qvxIuQsLBdOMo5Q==
+    - HookyQR.beautify@1.4.11:n9DJEUFbYD/YHaBXxm+pYw==
+    - vscode.typescript-language-features@1.39.1:ydr6AuQDXDD4Op7X4Fu4xg==
+    - ms-vscode.references-view@0.0.47:CgnZJ1lXuGZUXYrhXJjojw==
+    - xabikos.JavaScriptSnippets@1.7.2:6UAJwTEwVCPmBDrmeNVcJg==
+    - abusaidm.html-snippets@0.2.1:HrYIjYqOIABbxFB9g9kqXQ==
+    - donjayamanne.githistory@0.6.3:yHQXAk7wyhXL14JUEwlEXA==
