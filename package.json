@@ -1,0 +1,23 @@
+{
+  "name": "vigor",
+  "version": "1.0.0",
+  "description": "Application designed for health professionals to better assist patients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/space-xd/vigor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/space-xd/vigor/issues"
+  },
+  "homepage": "https://github.com/space-xd/vigor#readme",
+  "devDependencies": {
+    "jest": "^25.2.7"
+  }
+}
