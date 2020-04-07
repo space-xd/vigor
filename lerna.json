@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "packages": ["packages/*", "apps/*"],
+  "npmClient": "npm",
+  "command": {
+    "publish": {
+      "message": "chore(release): publish new version",
+      "registry": "https://npm.pkg.github.com",
+      "allowBranch": ["master"]
+    }
+  }
+}
