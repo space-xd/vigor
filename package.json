@@ -2,9 +2,12 @@
   "name": "vigor",
   "version": "1.0.0",
   "description": "Application designed for health professionals to better assist patients.",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "build": "lerna run build",
+    "test": "lerna run test",
+    "clean": "rm -rf node_modules",
+    "preinstall": "npm i -g --save lerna@latest && npm run clean",
+    "postinstall": "lerna clean --yes; lerna bootstrap"
   },
   "repository": {
     "type": "git",
